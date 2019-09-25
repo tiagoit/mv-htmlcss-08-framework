@@ -1,13 +1,17 @@
 @mixin media-breakpoint($name:"") {
-  @if($name == 'sm') { // Small screen
+  @if ($name == 'sm') { // Small screen
     @media only screen and (min-width: 0) and (max-width: 719px) {
       @content;
     }
-  } @else if($name == 'md') { // Medium screen
+  }
+
+  @else if ($name == 'md') { // Medium screen
     @media only screen and (min-width: 720px) and (max-width: 1023px) {
       @content;
     }
-  } @else { // Large screen
+  }
+
+  @else { // Large screen
     @media only screen and (min-width: 1024px) {
       @content;
     }

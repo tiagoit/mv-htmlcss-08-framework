@@ -3,4 +3,5 @@ linters:
     config: "stylelint.config.js"
 files:
   ignore:
-    - "src/css/reset.css"
+    - "src/css/framework.css"
+    - "src/framework/scss/*"
