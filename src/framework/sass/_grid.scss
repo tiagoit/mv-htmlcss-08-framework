@@ -1,0 +1,62 @@
+/* Variables */
+$defaultGutterSize: 16px;
+$mediumBreakpoint: 'md';
+$smallBreakpoint: 'sm';
+
+/* Grid container */
+.row {
+  /* Coulumn Gutter */
+  @mixin gutter($n) {
+    grid-column-gap: $n * $defaultGutterSize;
+  }
+  @include gutter(1);
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  &.no-gutter { @include gutter(0) }
+  &.half-gutter { @include gutter(0.5) }
+  &.double-gutter { @include gutter(2) }
+}
+
+/* Grid items */
+@include media-breakpoint() { // Large screen
+  @for $i from 1 through 12 {
+    .col-#{$i} { grid-column-start: span $i; }
+  }
+}
+@include media-breakpoint($mediumBreakpoint) { // Medium screen
+  @for $i from 1 through 12 {
+    .col-#{$mediumBreakpoint}-#{$i} { grid-column-start: span $i; }
+  }
+}
+@include media-breakpoint($smallBreakpoint) { // Small screen
+  @for $i from 1 through 12 {
+    .col-#{$smallBreakpoint}-#{$i} { grid-column-start: span $i; }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* REMOVE */
+.green {background-color: green }
+.red { background-color: red }
+.blue { background-color: blue }
+.yellow { background-color: yellow }
+
+div {
+  height: 50px;
+  width: 100%;
+}

@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Added classes */
+* {
+  box-sizing: border-box; }
+
+/* Variables */
+/* Grid container */
+.row {
+  /* Coulumn Gutter */
+  grid-column-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); }
+  .row.no-gutter {
+    grid-column-gap: 0px; }
+  .row.half-gutter {
+    grid-column-gap: 8px; }
+  .row.double-gutter {
+    grid-column-gap: 32px; }
+
+/* Grid items */
+@media only screen and (min-width: 1024px) {
+  .col-1 {
+    grid-column-start: span 1; }
+
+  .col-2 {
+    grid-column-start: span 2; }
+
+  .col-3 {
+    grid-column-start: span 3; }
+
+  .col-4 {
+    grid-column-start: span 4; }
+
+  .col-5 {
+    grid-column-start: span 5; }
+
+  .col-6 {
+    grid-column-start: span 6; }
+
+  .col-7 {
+    grid-column-start: span 7; }
+
+  .col-8 {
+    grid-column-start: span 8; }
+
+  .col-9 {
+    grid-column-start: span 9; }
+
+  .col-10 {
+    grid-column-start: span 10; }
+
+  .col-11 {
+    grid-column-start: span 11; }
+
+  .col-12 {
+    grid-column-start: span 12; } }
+@media only screen and (min-width: 720px) and (max-width: 1023px) {
+  .col-md-1 {
+    grid-column-start: span 1; }
+
+  .col-md-2 {
+    grid-column-start: span 2; }
+
+  .col-md-3 {
+    grid-column-start: span 3; }
+
+  .col-md-4 {
+    grid-column-start: span 4; }
+
+  .col-md-5 {
+    grid-column-start: span 5; }
+
+  .col-md-6 {
+    grid-column-start: span 6; }
+
+  .col-md-7 {
+    grid-column-start: span 7; }
+
+  .col-md-8 {
+    grid-column-start: span 8; }
+
+  .col-md-9 {
+    grid-column-start: span 9; }
+
+  .col-md-10 {
+    grid-column-start: span 10; }
+
+  .col-md-11 {
+    grid-column-start: span 11; }
+
+  .col-md-12 {
+    grid-column-start: span 12; } }
+@media only screen and (min-width: 0) and (max-width: 719px) {
+  .col-sm-1 {
+    grid-column-start: span 1; }
+
+  .col-sm-2 {
+    grid-column-start: span 2; }
+
+  .col-sm-3 {
+    grid-column-start: span 3; }
+
+  .col-sm-4 {
+    grid-column-start: span 4; }
+
+  .col-sm-5 {
+    grid-column-start: span 5; }
+
+  .col-sm-6 {
+    grid-column-start: span 6; }
+
+  .col-sm-7 {
+    grid-column-start: span 7; }
+
+  .col-sm-8 {
+    grid-column-start: span 8; }
+
+  .col-sm-9 {
+    grid-column-start: span 9; }
+
+  .col-sm-10 {
+    grid-column-start: span 10; }
+
+  .col-sm-11 {
+    grid-column-start: span 11; }
+
+  .col-sm-12 {
+    grid-column-start: span 12; } }
+/* REMOVE */
+.green {
+  background-color: green; }
+
+.red {
+  background-color: red; }
+
+.blue {
+  background-color: blue; }
+
+.yellow {
+  background-color: yellow; }
+
+div {
+  height: 50px;
+  width: 100%; }
+
+/*# sourceMappingURL=framework.css.map */
