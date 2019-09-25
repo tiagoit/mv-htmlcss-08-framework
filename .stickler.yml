@@ -4,4 +4,4 @@ linters:
 files:
   ignore:
     - "src/css/framework.css"
-    - "src/framework/scss/*"
+    - "src/framework/sass/*"
