@@ -1,4 +1,11 @@
-$spacingUnit: 4px;
+$spacingUnit: 0.25rem;
 
-// .mt-1 { margin-top: $spacingUnit;}
+@function multiply-px($var1, $var2) {
+  @return $var1 * $var2 / 1rem;
+}
 
+.mt-1 { margin-top: $spacingUnit;}
+.mt-2 { margin-top: multiply-px($spacingUnit, 2rem); }
+.mt-3 { margin-top: multiply-px($spacingUnit, 4rem); }
+.mt-4 { margin-top: multiply-px($spacingUnit, 6rem); }
+.mt-5 { margin-top: multiply-px($spacingUnit, 12rem); }
