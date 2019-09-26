@@ -429,4 +429,14 @@ div {
   padding-top: auto;
   padding-bottom: auto; }
 
+@media only screen and (min-width: 1024px) {
+  .hide {
+    display: none; } }
+@media only screen and (min-width: 720px) and (max-width: 1023px) {
+  .hide-sm {
+    display: none; } }
+@media only screen and (min-width: 0) and (max-width: 719px) {
+  .hide-md {
+    display: none; } }
+
 /*# sourceMappingURL=framework.css.map */
