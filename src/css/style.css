@@ -66,12 +66,15 @@ header nav div.menu img {
 
 .cta {
   text-align: center;
+  background-color: #eee;
+  font-weight: lighter;
+  padding: 80px 40px;
 }
 
 .cta > h1 {
   font-size: 36px;
   color: rgba(74, 74, 74, 0.7);
-  padding: 40px;
+  padding-bottom: 40px;
 }
 
 .cta > button {
@@ -87,6 +90,7 @@ header nav div.menu img {
 
 footer {
   padding: 80px 20px;
+  background-color: #fff;
 }
 
 .footer-logo-container {
@@ -128,6 +132,6 @@ footer {
 .footer-links a {
   text-decoration: none;
   color: rgba(74, 74, 74, 0.7);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
