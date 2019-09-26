@@ -61,6 +61,20 @@ header nav div.menu img {
 
 /* STORIES  */
 
+.stories {
+  text-align: center;
+  padding: 0 400px;
+}
+
+.stories > h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 70px 0 0;
+}
+
+.stories-name, .stories-text {
+  text-align: left;
+}
 
 /* CTA  */
 
