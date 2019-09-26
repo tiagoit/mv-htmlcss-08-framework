@@ -1,0 +1,60 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+  font-family: Norse;
+  src: url("../../public/fonts/Norse-Bold.otf") format("opentype");
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+header nav div.brand {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+header nav div.brand img {
+  height: 60px;
+}
+
+header nav div.brand span {
+  font-family: Norse;
+  color: #cc9543;
+  text-transform: uppercase;
+  font-family: "Norse";
+  letter-spacing: 0.4px;
+  font-weight: bold;
+  font-size: 32px;
+  padding-left: 0.5em;
+  margin-right: 24px;
+}
+
+header nav div.links {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+header nav div.links a {
+  color: rgba(74,74,74,0.7);
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 8px;
+}
+
+header nav div.menu {
+  display: flex;
+  align-items: center;
+}
+
+header nav div.menu img {
+  height: 28px;
+}

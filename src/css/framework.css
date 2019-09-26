@@ -172,23 +172,6 @@ table {
 
   .col-sm-12 {
     grid-column-start: span 12; } }
-/* REMOVE */
-.green {
-  background-color: green; }
-
-.red {
-  background-color: red; }
-
-.blue {
-  background-color: blue; }
-
-.yellow {
-  background-color: yellow; }
-
-div {
-  height: 50px;
-  width: 100%; }
-
 .mt-1 {
   margin-top: 0.25rem; }
 
@@ -431,12 +414,12 @@ div {
 
 @media only screen and (min-width: 1024px) {
   .hide {
-    display: none; } }
+    display: none !important; } }
 @media only screen and (min-width: 720px) and (max-width: 1023px) {
-  .hide-sm {
-    display: none; } }
-@media only screen and (min-width: 0) and (max-width: 719px) {
   .hide-md {
-    display: none; } }
+    display: none !important; } }
+@media only screen and (min-width: 0) and (max-width: 719px) {
+  .hide-sm {
+    display: none !important; } }
 
 /*# sourceMappingURL=framework.css.map */

@@ -1,18 +1,18 @@
 
 @include media-breakpoint() { // Large screen
   .hide {
-    display: none;
+    display: none !important;
   }
 }
 
 @include media-breakpoint($mediumBreakpoint) { // Medium screen
-  .hide-sm {
-    display: none;
+  .hide-md {
+    display: none !important;
   }
 }
 
 @include media-breakpoint($smallBreakpoint) { // Small screen
-  .hide-md {
-    display: none;
+  .hide-sm {
+    display: none !important;
   }
 }
