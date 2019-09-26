@@ -9,3 +9,22 @@ $spacingUnit: 0.25rem;
 .mt-3 { margin-top: multiply-px($spacingUnit, 4rem); }
 .mt-4 { margin-top: multiply-px($spacingUnit, 6rem); }
 .mt-5 { margin-top: multiply-px($spacingUnit, 12rem); }
+
+.mr-1 { margin-right: $spacingUnit; }
+.mr-2 { margin-right: multiply-px($spacingUnit, 2rem); }
+.mr-3 { margin-right: multiply-px($spacingUnit, 4rem); }
+.mr-4 { margin-right: multiply-px($spacingUnit, 6rem); }
+.mr-5 { margin-right: multiply-px($spacingUnit, 12rem); }
+
+.mb-1 { margin-bottom: $spacingUnit; }
+.mb-2 { margin-bottom: multiply-px($spacingUnit, 2rem); }
+.mb-3 { margin-bottom: multiply-px($spacingUnit, 4rem); }
+.mb-4 { margin-bottom: multiply-px($spacingUnit, 6rem); }
+.mb-5 { margin-bottom: multiply-px($spacingUnit, 12rem); }
+
+.ml-1 { margin-left: $spacingUnit; }
+.ml-2 { margin-left: multiply-px($spacingUnit, 2rem); }
+.ml-3 { margin-left: multiply-px($spacingUnit, 4rem); }
+.ml-4 { margin-left: multiply-px($spacingUnit, 6rem); }
+.ml-5 { margin-left: multiply-px($spacingUnit, 12rem); }
+
