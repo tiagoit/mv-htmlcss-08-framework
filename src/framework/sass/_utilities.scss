@@ -8,6 +8,8 @@ $spacingUnit3: multiply-px($spacingUnit, 4rem);
 $spacingUnit4: multiply-px($spacingUnit, 6rem);
 $spacingUnit5: multiply-px($spacingUnit, 12rem);
 
+.m-auto { margin: 0 auto; }
+
 .mt-1 { margin-top: $spacingUnit; }
 .mt-2 { margin-top: $spacingUnit2; }
 .mt-3 { margin-top: $spacingUnit3; }

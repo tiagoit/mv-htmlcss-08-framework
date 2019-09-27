@@ -172,6 +172,9 @@ table {
 
   .col-sm-12 {
     grid-column-start: span 12; } }
+.m-auto {
+  margin: 0 auto; }
+
 .mt-1 {
   margin-top: 0.25rem; }
 
