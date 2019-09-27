@@ -6,3 +6,4 @@ files:
     - "src/css/framework.css"
     - "src/framework/sass/*"
     - "font-awesome/css/font-awesome.css"
+    - "font-awesome/*"
