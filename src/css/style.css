@@ -7,6 +7,26 @@ body {
   src: url("../../public/fonts/Norse-Bold.otf") format("opentype");
 }
 
+.section-title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 70px 0 70px 0;
+}
+
+.section-body {
+  padding: 40px 0 50px 0;
+}
+
+.caption {
+  margin-top: -40px;
+  width: 50%;
+  color: rgba(74,74,74,0.7);
+  font-size: 1.2em;
+  line-height: 1.5em;  
+}
+
 header nav {
   display: flex;
   justify-content: center;
@@ -59,18 +79,28 @@ header nav div.menu img {
   height: 28px;
 }
 
-/* LEARN  */
+/* HOW IT WORKS */
 
-.learn .row {
-  margin: 0 auto;
+
+/* LEARN  */
+.learn {
+  background-color: #f3f3f3;
+  padding-bottom: 40px;
+}
+
+.learn>.row {
+  padding: 0 20%;
 }
 
 .learn-child {
   margin: 0 auto;
+  padding: 50px;
+  margin-bottom: 20px;
+  background-color: #fff;
 }
 
 .learn-img img {
-  height: 120px;
+  height: 150px;
 }
 
 /* STORIES  */
@@ -88,13 +118,6 @@ header nav div.menu img {
   object-fit: cover;
   border-radius: 50%;
   display: inline-block;
-}
-
-.stories > h2 {
-  font-size: 24px;
-  font-weight: bold;
-  padding: 70px 0 70px 0;
-
 }
 
 .stories-name {
@@ -115,8 +138,6 @@ header nav div.menu img {
   font-size: 1.1em;
   color: rgba(74, 74, 74, 0.7);
 }
-
-
 
 /* CTA  */
 
