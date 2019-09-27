@@ -1,6 +1,12 @@
 @mixin media-breakpoint($name:"") {
+  @if ($name == 'xs') { // Extra small screen
+    @media only screen and (min-width: 0) and (max-width: 479px) {
+      @content;
+    }
+  }
+  
   @if ($name == 'sm') { // Small screen
-    @media only screen and (min-width: 0) and (max-width: 719px) {
+    @media only screen and (min-width: 480) and (max-width: 719px) {
       @content;
     }
   }
