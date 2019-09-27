@@ -10,7 +10,8 @@ body {
 header nav {
   display: flex;
   justify-content: center;
-  padding-top: 12px;
+  padding: 12px 36px;
+
 }
 
 header nav div.brand {
@@ -20,7 +21,7 @@ header nav div.brand {
 }
 
 header nav div.brand img {
-  height: 60px;
+  height: 50px;
 }
 
 header nav div.brand span {
@@ -30,7 +31,7 @@ header nav div.brand span {
   font-family: "Norse";
   letter-spacing: 0.4px;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 28px;
   padding-left: 0.5em;
   margin-right: 24px;
 }
@@ -45,7 +46,7 @@ header nav div.links a {
   color: rgba(74,74,74,0.7);
   text-decoration: none;
   letter-spacing: 0.2px;
-  font-size: 1em;
+  font-size: 14px;
   font-weight: bold;
   padding: 8px;
 }
@@ -53,6 +54,8 @@ header nav div.links a {
 header nav div.menu {
   display: flex;
   align-items: center;
+  flex: 1;
+  justify-content: flex-end;
 }
 
 header nav div.menu img {
