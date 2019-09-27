@@ -585,7 +585,8 @@ table {
   background-color: #fff; }
 
 .card-img {
-  width: fit-content; }
+  width: fit-content;
+  margin: 0 auto; }
   .card-img img {
     height: 150px; }
 
