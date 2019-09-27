@@ -79,6 +79,19 @@ header nav div.menu img {
   height: 28px;
 }
 
+/* JUMBOTRON */
+
+.jumbotron {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.jumbotron-title h1 {
+  font-size: 2em;
+  color: #ce973e;
+  line-height: 2.4em;
+}
+
 /* HOW IT WORKS */
 
 
@@ -153,15 +166,6 @@ header nav div.menu img {
   color: rgba(74, 74, 74, 0.7);
   padding-bottom: 40px;
 }
-
-.cta > button {
-  padding: 16px 56px;
-  color: #fff;
-  background-color: #6abfc3;
-  font-size: 16px;
-  border-radius: 5px;
-}
-
 
 /*  FOOTER   */
 

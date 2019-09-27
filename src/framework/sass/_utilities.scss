@@ -36,6 +36,7 @@ $spacingUnit5: multiply-px($spacingUnit, 12rem);
 .ml-5 { padding-left: $spacingUnit5; }
 .ml-auto { padding-left: auto; }
 
+.mx-0 { margin-right: 0; margin-left: 0; }
 .mx-1 { margin-right: $spacingUnit; margin-left: $spacingUnit; }
 .mx-2 { margin-right: $spacingUnit2; margin-left: $spacingUnit2; }
 .mx-3 { margin-right: $spacingUnit3; margin-left: $spacingUnit3; }
@@ -43,6 +44,7 @@ $spacingUnit5: multiply-px($spacingUnit, 12rem);
 .mx-5 { margin-right: $spacingUnit5; margin-left: $spacingUnit5; }
 .mx-auto { margin-right: auto; margin-left: auto; }
 
+.my-0 { margin-top: 0; margin-bottom: 0; }
 .my-1 { margin-top: $spacingUnit; margin-bottom: $spacingUnit; }
 .my-2 { margin-top: $spacingUnit2; margin-bottom: $spacingUnit2; }
 .my-3 { margin-top: $spacingUnit3; margin-bottom: $spacingUnit3; }
