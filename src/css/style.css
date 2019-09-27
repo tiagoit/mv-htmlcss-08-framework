@@ -63,18 +63,46 @@ header nav div.menu img {
 
 .stories {
   text-align: center;
-  padding: 0 400px;
+  padding-left: 100px;
+  background-color: rgba(248, 248, 248, 0.726);
+  width: 90%;
+}
+
+.stories img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .stories > h2 {
   font-size: 24px;
   font-weight: bold;
-  padding: 70px 0 0;
+  padding: 70px 0 70px 0;
+
+}
+
+.stories-name {
+  color: #ce973e;
 }
 
 .stories-name, .stories-text {
   text-align: left;
+  line-height: 29px;
 }
+
+.stories-text-wrapper {
+  display: inline-block;
+  margin: 0 auto;
+  width: 80%;
+  padding-left: 10px;
+  padding-bottom: 60px;
+  font-size: 1.1em;
+  color: rgba(74, 74, 74, 0.7);
+}
+
+
 
 /* CTA  */
 
@@ -129,7 +157,7 @@ footer {
 
 .social-media-icons li {
   display: inline;
-  padding: 20px;
+  padding: 15px;
 }
 
 .footer-third {
@@ -139,7 +167,7 @@ footer {
 .footer-links {
   display: inline-block;
   text-align: center;
-  padding: 20px;
+  padding: 4px;
   line-height: 1.4em;
 }
 
