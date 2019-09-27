@@ -556,12 +556,6 @@ table {
 @media only screen and (min-width: 480) and (max-width: 719px) {
   .hide-sm {
     display: none !important; } }
-@media only screen and (min-width: 0) and (max-width: 479px) {
-  .hide-xs {
-    display: none !important; } }
-@media only screen and (min-width: 1024px) {
-  .hide-xs {
-    display: none !important; } }
 .button-blue {
   padding: 16px 56px;
   color: #fff;
