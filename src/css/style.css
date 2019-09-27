@@ -88,6 +88,7 @@ header nav div.menu img {
 }
 
 .jumbotron-title h1 {
+  margin-top: -30px;
   font-size: 2em;
   color: #ce973e;
   line-height: 2.4em;
