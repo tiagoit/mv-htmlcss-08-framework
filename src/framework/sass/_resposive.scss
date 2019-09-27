@@ -16,3 +16,9 @@
     display: none !important;
   }
 }
+
+@include media-breakpoint($extraSmallBreakpoint) { // Small screen
+  .hide-xs {
+    display: none !important;
+  }
+}
