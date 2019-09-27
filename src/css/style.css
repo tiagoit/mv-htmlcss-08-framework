@@ -114,21 +114,6 @@ header nav div.menu img {
   padding: 0 2em;
 }
 
-.learn-child {
-  margin: 0 auto;
-  padding: 50px;
-  margin-bottom: 20px;
-  background-color: #fff;
-}
-
-section.learn .learn-img {
-  width: fit-content;
-}
-
-section.learn .learn-img img {
-  height: 150px;
-}
-
 /* STORIES  */
 
 .stories {

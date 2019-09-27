@@ -565,6 +565,7 @@ table {
   margin: 10px 0 20px 0; }
 
 .card-title {
+  display: block;
   color: var(--black);
   font-weight: bold;
   margin: 5px;
@@ -572,6 +573,7 @@ table {
   text-align: center; }
 
 .card-text {
+  display: block;
   color: var(--grey);
   line-height: 1.5em;
   font-size: 1.1em; }
@@ -579,8 +581,13 @@ table {
 .card {
   width: auto;
   padding: 40px;
-  margin: 0 20px;
-  background-color: var(--white); }
+  margin: 5px 20px;
+  background-color: #fff; }
+
+.card-img {
+  width: fit-content; }
+  .card-img img {
+    height: 150px; }
 
 :root {
   --gold: #c7973c;
