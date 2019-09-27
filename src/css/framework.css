@@ -547,19 +547,6 @@ table {
   padding-top: auto;
   padding-bottom: auto; }
 
-/* Flex */
-.flex {
-  display: flex; }
-
-.flex-justify-center {
-  justify-content: center; }
-
-.flex-justify-between {
-  justify-content: space-between; }
-
-.flex-justify-around {
-  justify-content: space-around; }
-
 @media only screen and (min-width: 1024px) {
   .hide {
     display: none !important; } }
@@ -604,8 +591,7 @@ table {
   background-color: #fff; }
 
 .card-img {
-  width: fit-content;
-  margin: 0 auto; }
+  width: fit-content; }
   .card-img img {
     height: 150px; }
 
@@ -614,27 +600,5 @@ table {
   --grey: rgba(74, 74, 74, 0.7);
   --white: #f3f3f3;
   --black: #4a4a4a; }
-
-.text-middle {
-  text-align: center; }
-
-.text-left {
-  text-align: left; }
-
-.text-right {
-  text-align: right; }
-
-.card-text {
-  width: 50%;
-  color: rgba(74, 74, 74, 0.7);
-  font-size: 1.2em;
-  line-height: 1.5em;
-  padding: 20px;
-  margin: 0 auto;
-  font-family: 'Open Sans', sans-serif; }
-
-.inline-menu li {
-  display: inline-block;
-  padding: 4px 12px; }
 
 /*# sourceMappingURL=framework.css.map */
