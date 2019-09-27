@@ -556,15 +556,6 @@ table {
 @media only screen and (min-width: 480) and (max-width: 719px) {
   .hide-sm {
     display: none !important; } }
-.text-middle {
-  text-align: center; }
-
-.text-left {
-  text-align: left; }
-
-.text-right {
-  text-align: right; }
-
 .button-blue {
   padding: 16px 56px;
   color: #fff;
@@ -574,7 +565,7 @@ table {
   margin: 10px 0 20px 0; }
 
 :root {
-  --gold: red;
+  --gold: #c7973c;
   --grey: rgba(74, 74, 74, 0.7);
   --white: #f3f3f3;
   --black: #4a4a4a; }
