@@ -13,24 +13,27 @@ $extraSmallBreakpoint: 'xs';
 @include media-breakpoint() { // Large screen
   @for $i from 1 through 12 {
     .col-#{$i} {
-      float: left;
-      width: calc( 100% / 12 * #{$i});
+      float: left !important;
+      width: calc( 100% / 12 * #{$i}) !important;
+      margin: 0 !important;
     }
   }
 }
 @include media-breakpoint($mediumBreakpoint) { // Medium screen
   @for $i from 1 through 12 {
     .col-#{$mediumBreakpoint}-#{$i} {
-      float: left;
-      width: calc( 100% / 12 * #{$i});
+      float: left !important;
+      width: calc( 100% / 12 * #{$i}) !important;
+      margin: 0 !important;
     }
   }
 }
 @include media-breakpoint($smallBreakpoint) { // Small screen
   @for $i from 1 through 12 {
     .col-#{$smallBreakpoint}-#{$i} {
-      float: left;
-      width: calc( 100% / 12 * #{$i});
+      float: left !important;
+      width: calc( 100% / 12 * #{$i}) !important;
+      margin: 0 !important;
     }
   }
 }
@@ -38,8 +41,9 @@ $extraSmallBreakpoint: 'xs';
 @include media-breakpoint($extraSmallBreakpoint) { // Small screen
   @for $i from 1 through 12 {
     .col-#{$extraSmallBreakpoint}-#{$i} {
-      float: left;
-      width: calc( 100% / 12 * #{$i});
+      float: left !important;
+      width: calc( 100% / 12 * #{$i}) !important;
+      margin: 0 !important;
     }
   }
 }

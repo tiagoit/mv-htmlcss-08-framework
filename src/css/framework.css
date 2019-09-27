@@ -58,244 +58,304 @@ table {
 /* Grid items */
 @media only screen and (min-width: 1024px) {
   .col-1 {
-    float: left;
-    width: calc( 100% / 12 * 1); }
+    float: left !important;
+    width: calc( 100% / 12 * 1) !important;
+    margin: 0 !important; }
 
   .col-2 {
-    float: left;
-    width: calc( 100% / 12 * 2); }
+    float: left !important;
+    width: calc( 100% / 12 * 2) !important;
+    margin: 0 !important; }
 
   .col-3 {
-    float: left;
-    width: calc( 100% / 12 * 3); }
+    float: left !important;
+    width: calc( 100% / 12 * 3) !important;
+    margin: 0 !important; }
 
   .col-4 {
-    float: left;
-    width: calc( 100% / 12 * 4); }
+    float: left !important;
+    width: calc( 100% / 12 * 4) !important;
+    margin: 0 !important; }
 
   .col-5 {
-    float: left;
-    width: calc( 100% / 12 * 5); }
+    float: left !important;
+    width: calc( 100% / 12 * 5) !important;
+    margin: 0 !important; }
 
   .col-6 {
-    float: left;
-    width: calc( 100% / 12 * 6); }
+    float: left !important;
+    width: calc( 100% / 12 * 6) !important;
+    margin: 0 !important; }
 
   .col-7 {
-    float: left;
-    width: calc( 100% / 12 * 7); }
+    float: left !important;
+    width: calc( 100% / 12 * 7) !important;
+    margin: 0 !important; }
 
   .col-8 {
-    float: left;
-    width: calc( 100% / 12 * 8); }
+    float: left !important;
+    width: calc( 100% / 12 * 8) !important;
+    margin: 0 !important; }
 
   .col-9 {
-    float: left;
-    width: calc( 100% / 12 * 9); }
+    float: left !important;
+    width: calc( 100% / 12 * 9) !important;
+    margin: 0 !important; }
 
   .col-10 {
-    float: left;
-    width: calc( 100% / 12 * 10); }
+    float: left !important;
+    width: calc( 100% / 12 * 10) !important;
+    margin: 0 !important; }
 
   .col-11 {
-    float: left;
-    width: calc( 100% / 12 * 11); }
+    float: left !important;
+    width: calc( 100% / 12 * 11) !important;
+    margin: 0 !important; }
 
   .col-12 {
-    float: left;
-    width: calc( 100% / 12 * 12); } }
+    float: left !important;
+    width: calc( 100% / 12 * 12) !important;
+    margin: 0 !important; } }
 @media only screen and (min-width: 720px) and (max-width: 1023px) {
   .col-md-1 {
-    float: left;
-    width: calc( 100% / 12 * 1); }
+    float: left !important;
+    width: calc( 100% / 12 * 1) !important;
+    margin: 0 !important; }
 
   .col-md-2 {
-    float: left;
-    width: calc( 100% / 12 * 2); }
+    float: left !important;
+    width: calc( 100% / 12 * 2) !important;
+    margin: 0 !important; }
 
   .col-md-3 {
-    float: left;
-    width: calc( 100% / 12 * 3); }
+    float: left !important;
+    width: calc( 100% / 12 * 3) !important;
+    margin: 0 !important; }
 
   .col-md-4 {
-    float: left;
-    width: calc( 100% / 12 * 4); }
+    float: left !important;
+    width: calc( 100% / 12 * 4) !important;
+    margin: 0 !important; }
 
   .col-md-5 {
-    float: left;
-    width: calc( 100% / 12 * 5); }
+    float: left !important;
+    width: calc( 100% / 12 * 5) !important;
+    margin: 0 !important; }
 
   .col-md-6 {
-    float: left;
-    width: calc( 100% / 12 * 6); }
+    float: left !important;
+    width: calc( 100% / 12 * 6) !important;
+    margin: 0 !important; }
 
   .col-md-7 {
-    float: left;
-    width: calc( 100% / 12 * 7); }
+    float: left !important;
+    width: calc( 100% / 12 * 7) !important;
+    margin: 0 !important; }
 
   .col-md-8 {
-    float: left;
-    width: calc( 100% / 12 * 8); }
+    float: left !important;
+    width: calc( 100% / 12 * 8) !important;
+    margin: 0 !important; }
 
   .col-md-9 {
-    float: left;
-    width: calc( 100% / 12 * 9); }
+    float: left !important;
+    width: calc( 100% / 12 * 9) !important;
+    margin: 0 !important; }
 
   .col-md-10 {
-    float: left;
-    width: calc( 100% / 12 * 10); }
+    float: left !important;
+    width: calc( 100% / 12 * 10) !important;
+    margin: 0 !important; }
 
   .col-md-11 {
-    float: left;
-    width: calc( 100% / 12 * 11); }
+    float: left !important;
+    width: calc( 100% / 12 * 11) !important;
+    margin: 0 !important; }
 
   .col-md-12 {
-    float: left;
-    width: calc( 100% / 12 * 12); } }
+    float: left !important;
+    width: calc( 100% / 12 * 12) !important;
+    margin: 0 !important; } }
 @media only screen and (min-width: 480) and (max-width: 719px) {
   .col-sm-1 {
-    float: left;
-    width: calc( 100% / 12 * 1); }
+    float: left !important;
+    width: calc( 100% / 12 * 1) !important;
+    margin: 0 !important; }
 
   .col-sm-2 {
-    float: left;
-    width: calc( 100% / 12 * 2); }
+    float: left !important;
+    width: calc( 100% / 12 * 2) !important;
+    margin: 0 !important; }
 
   .col-sm-3 {
-    float: left;
-    width: calc( 100% / 12 * 3); }
+    float: left !important;
+    width: calc( 100% / 12 * 3) !important;
+    margin: 0 !important; }
 
   .col-sm-4 {
-    float: left;
-    width: calc( 100% / 12 * 4); }
+    float: left !important;
+    width: calc( 100% / 12 * 4) !important;
+    margin: 0 !important; }
 
   .col-sm-5 {
-    float: left;
-    width: calc( 100% / 12 * 5); }
+    float: left !important;
+    width: calc( 100% / 12 * 5) !important;
+    margin: 0 !important; }
 
   .col-sm-6 {
-    float: left;
-    width: calc( 100% / 12 * 6); }
+    float: left !important;
+    width: calc( 100% / 12 * 6) !important;
+    margin: 0 !important; }
 
   .col-sm-7 {
-    float: left;
-    width: calc( 100% / 12 * 7); }
+    float: left !important;
+    width: calc( 100% / 12 * 7) !important;
+    margin: 0 !important; }
 
   .col-sm-8 {
-    float: left;
-    width: calc( 100% / 12 * 8); }
+    float: left !important;
+    width: calc( 100% / 12 * 8) !important;
+    margin: 0 !important; }
 
   .col-sm-9 {
-    float: left;
-    width: calc( 100% / 12 * 9); }
+    float: left !important;
+    width: calc( 100% / 12 * 9) !important;
+    margin: 0 !important; }
 
   .col-sm-10 {
-    float: left;
-    width: calc( 100% / 12 * 10); }
+    float: left !important;
+    width: calc( 100% / 12 * 10) !important;
+    margin: 0 !important; }
 
   .col-sm-11 {
-    float: left;
-    width: calc( 100% / 12 * 11); }
+    float: left !important;
+    width: calc( 100% / 12 * 11) !important;
+    margin: 0 !important; }
 
   .col-sm-12 {
-    float: left;
-    width: calc( 100% / 12 * 12); } }
+    float: left !important;
+    width: calc( 100% / 12 * 12) !important;
+    margin: 0 !important; } }
 @media only screen and (min-width: 0) and (max-width: 479px) {
   .col-xs-1 {
-    float: left;
-    width: calc( 100% / 12 * 1); }
+    float: left !important;
+    width: calc( 100% / 12 * 1) !important;
+    margin: 0 !important; }
 
   .col-xs-2 {
-    float: left;
-    width: calc( 100% / 12 * 2); }
+    float: left !important;
+    width: calc( 100% / 12 * 2) !important;
+    margin: 0 !important; }
 
   .col-xs-3 {
-    float: left;
-    width: calc( 100% / 12 * 3); }
+    float: left !important;
+    width: calc( 100% / 12 * 3) !important;
+    margin: 0 !important; }
 
   .col-xs-4 {
-    float: left;
-    width: calc( 100% / 12 * 4); }
+    float: left !important;
+    width: calc( 100% / 12 * 4) !important;
+    margin: 0 !important; }
 
   .col-xs-5 {
-    float: left;
-    width: calc( 100% / 12 * 5); }
+    float: left !important;
+    width: calc( 100% / 12 * 5) !important;
+    margin: 0 !important; }
 
   .col-xs-6 {
-    float: left;
-    width: calc( 100% / 12 * 6); }
+    float: left !important;
+    width: calc( 100% / 12 * 6) !important;
+    margin: 0 !important; }
 
   .col-xs-7 {
-    float: left;
-    width: calc( 100% / 12 * 7); }
+    float: left !important;
+    width: calc( 100% / 12 * 7) !important;
+    margin: 0 !important; }
 
   .col-xs-8 {
-    float: left;
-    width: calc( 100% / 12 * 8); }
+    float: left !important;
+    width: calc( 100% / 12 * 8) !important;
+    margin: 0 !important; }
 
   .col-xs-9 {
-    float: left;
-    width: calc( 100% / 12 * 9); }
+    float: left !important;
+    width: calc( 100% / 12 * 9) !important;
+    margin: 0 !important; }
 
   .col-xs-10 {
-    float: left;
-    width: calc( 100% / 12 * 10); }
+    float: left !important;
+    width: calc( 100% / 12 * 10) !important;
+    margin: 0 !important; }
 
   .col-xs-11 {
-    float: left;
-    width: calc( 100% / 12 * 11); }
+    float: left !important;
+    width: calc( 100% / 12 * 11) !important;
+    margin: 0 !important; }
 
   .col-xs-12 {
-    float: left;
-    width: calc( 100% / 12 * 12); } }
+    float: left !important;
+    width: calc( 100% / 12 * 12) !important;
+    margin: 0 !important; } }
 @media only screen and (min-width: 1024px) {
   .col-xs-1 {
-    float: left;
-    width: calc( 100% / 12 * 1); }
+    float: left !important;
+    width: calc( 100% / 12 * 1) !important;
+    margin: 0 !important; }
 
   .col-xs-2 {
-    float: left;
-    width: calc( 100% / 12 * 2); }
+    float: left !important;
+    width: calc( 100% / 12 * 2) !important;
+    margin: 0 !important; }
 
   .col-xs-3 {
-    float: left;
-    width: calc( 100% / 12 * 3); }
+    float: left !important;
+    width: calc( 100% / 12 * 3) !important;
+    margin: 0 !important; }
 
   .col-xs-4 {
-    float: left;
-    width: calc( 100% / 12 * 4); }
+    float: left !important;
+    width: calc( 100% / 12 * 4) !important;
+    margin: 0 !important; }
 
   .col-xs-5 {
-    float: left;
-    width: calc( 100% / 12 * 5); }
+    float: left !important;
+    width: calc( 100% / 12 * 5) !important;
+    margin: 0 !important; }
 
   .col-xs-6 {
-    float: left;
-    width: calc( 100% / 12 * 6); }
+    float: left !important;
+    width: calc( 100% / 12 * 6) !important;
+    margin: 0 !important; }
 
   .col-xs-7 {
-    float: left;
-    width: calc( 100% / 12 * 7); }
+    float: left !important;
+    width: calc( 100% / 12 * 7) !important;
+    margin: 0 !important; }
 
   .col-xs-8 {
-    float: left;
-    width: calc( 100% / 12 * 8); }
+    float: left !important;
+    width: calc( 100% / 12 * 8) !important;
+    margin: 0 !important; }
 
   .col-xs-9 {
-    float: left;
-    width: calc( 100% / 12 * 9); }
+    float: left !important;
+    width: calc( 100% / 12 * 9) !important;
+    margin: 0 !important; }
 
   .col-xs-10 {
-    float: left;
-    width: calc( 100% / 12 * 10); }
+    float: left !important;
+    width: calc( 100% / 12 * 10) !important;
+    margin: 0 !important; }
 
   .col-xs-11 {
-    float: left;
-    width: calc( 100% / 12 * 11); }
+    float: left !important;
+    width: calc( 100% / 12 * 11) !important;
+    margin: 0 !important; }
 
   .col-xs-12 {
-    float: left;
-    width: calc( 100% / 12 * 12); } }
+    float: left !important;
+    width: calc( 100% / 12 * 12) !important;
+    margin: 0 !important; } }
 .m-auto {
   margin: 0 auto; }
 
