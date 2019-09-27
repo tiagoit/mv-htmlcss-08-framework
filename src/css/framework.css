@@ -573,4 +573,10 @@ table {
   border-radius: 5px;
   margin: 10px 0 20px 0; }
 
+:root {
+  --gold: red;
+  --grey: rgba(74, 74, 74, 0.7);
+  --white: #f3f3f3;
+  --black: #4a4a4a; }
+
 /*# sourceMappingURL=framework.css.map */
