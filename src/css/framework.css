@@ -172,6 +172,9 @@ table {
 
   .col-sm-12 {
     grid-column-start: span 12; } }
+.m-auto {
+  margin: 0 auto; }
+
 .mt-1 {
   margin-top: 0.25rem; }
 
@@ -244,6 +247,10 @@ table {
 .ml-auto {
   padding-left: auto; }
 
+.mx-0 {
+  margin-right: 0;
+  margin-left: 0; }
+
 .mx-1 {
   margin-right: 0.25rem;
   margin-left: 0.25rem; }
@@ -267,6 +274,10 @@ table {
 .mx-auto {
   margin-right: auto;
   margin-left: auto; }
+
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0; }
 
 .my-1 {
   margin-top: 0.25rem;
@@ -421,5 +432,21 @@ table {
 @media only screen and (min-width: 0) and (max-width: 719px) {
   .hide-sm {
     display: none !important; } }
+.text-middle {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.button-blue {
+  padding: 16px 56px;
+  color: #fff;
+  background-color: #6abfc3;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 10px 0 20px 0; }
 
 /*# sourceMappingURL=framework.css.map */
