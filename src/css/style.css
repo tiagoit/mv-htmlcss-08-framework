@@ -87,6 +87,10 @@ header nav div.menu img {
   color: var(--gold);
 }
 
+.jumbotron .jumbotron-img {
+  margin-bottom: 60px;
+}
+
 /* HOW IT WORKS */
 .how-it-works {
   margin-top: -130px;
