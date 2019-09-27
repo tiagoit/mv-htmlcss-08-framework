@@ -32,15 +32,6 @@ body {
   font-weight: bold;
 }
 
-.caption {
-  margin-top: -40px;
-  width: 50%;
-  color: var(--grey);
-  font-size: 1.2em;
-  line-height: 1.5em;
-  padding-bottom: 20px;
-}
-
 header nav {
   display: flex;
   justify-content: center;
