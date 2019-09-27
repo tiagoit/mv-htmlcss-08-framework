@@ -10,7 +10,7 @@ body {
 }
 
 @font-face {
-  font-family: Norse;
+  font-family: "Norse";
   src: url("../../public/fonts/Norse-Bold.otf") format("opentype");
 }
 
@@ -37,7 +37,7 @@ body {
   width: 50%;
   color: var(--grey);
   font-size: 1.2em;
-  line-height: 1.5em;  
+  line-height: 1.5em;
   padding-bottom: 20px;
 }
 
@@ -45,7 +45,6 @@ header nav {
   display: flex;
   justify-content: center;
   padding: 12px 36px;
-
 }
 
 header nav div.brand {
@@ -59,10 +58,9 @@ header nav div.brand img {
 }
 
 header nav div.brand span {
-  font-family: Norse;
+  font-family: "Norse", sans-serif;
   color: #cc9543;
   text-transform: uppercase;
-  font-family: "Norse";
   letter-spacing: 0.4px;
   font-weight: bold;
   font-size: 28px;
@@ -110,20 +108,21 @@ header nav div.menu img {
 }
 
 /* HOW IT WORKS */
-  .how-it-works {
-    margin-top: -130px;
-  }
+.how-it-works {
+  margin-top: -130px;
+}
 
-  .how-it-works > .row, .how-it-works-img {
-    text-align: center;
-    margin: 0 auto;
-  }
+.how-it-works > .row,
+.how-it-works-img {
+  text-align: center;
+  margin: 0 auto;
+}
 
-  .how-it-works-text-wrap p{
-    margin: 0 auto;
-    text-align: center;
-    width: 90%;
-  }
+.how-it-works-text-wrap p {
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+}
 
 /* LEARN  */
 .learn {
@@ -131,7 +130,7 @@ header nav div.menu img {
   padding-bottom: 40px;
 }
 
-.learn>.row {
+.learn > .row {
   padding: 0 2em;
 }
 
@@ -142,11 +141,11 @@ header nav div.menu img {
   background-color: #fff;
 }
 
-.learn-img {
+section.learn .learn-img {
   width: fit-content;
 }
 
-.learn-img img {
+section.learn .learn-img img {
   height: 150px;
 }
 
@@ -159,7 +158,7 @@ header nav div.menu img {
   width: 100%;
 }
 
-.stories img {
+.stories .row img.story-img {
   width: 80px;
   height: 80px;
   object-fit: cover;
@@ -171,7 +170,8 @@ header nav div.menu img {
   color: var(--gold);
 }
 
-.stories-name, .stories-text {
+.stories-name,
+.stories-text {
   text-align: left;
   line-height: 29px;
 }
@@ -218,7 +218,7 @@ footer {
   margin: 0 auto;
 }
 
-.social-media-icons a {
+footer .row .social-media-icons a {
   color: var(--gold);
 }
 
@@ -244,7 +244,7 @@ footer {
   line-height: 1.4em;
 }
 
-.footer-links a {
+footer .footer-third .footer-links a {
   text-decoration: none;
   color: var(--grey);
   font-family: 'Open Sans', sans-serif;
