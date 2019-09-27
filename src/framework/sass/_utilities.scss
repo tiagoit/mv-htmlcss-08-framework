@@ -95,3 +95,12 @@ $spacingUnit5: multiply-px($spacingUnit, 12rem);
 .py-4 { padding-top: $spacingUnit4; padding-bottom: $spacingUnit4; }
 .py-5 { padding-top: $spacingUnit5; padding-bottom: $spacingUnit5; }
 .py-auto { padding-top: auto; padding-bottom: auto; }
+
+
+/* Flex */
+.flex { display: flex; }
+.flex-justify-center { justify-content: center; }
+.flex-justify-between { justify-content: space-between; }
+.flex-justify-around { justify-content: space-around; }
+
+
