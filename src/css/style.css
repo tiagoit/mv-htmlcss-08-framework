@@ -118,6 +118,10 @@ header nav div.menu img {
   padding: 0 2em;
 }
 
+.learn .card {
+  max-width: 260px;
+}
+
 /* STORIES  */
 
 .stories {
