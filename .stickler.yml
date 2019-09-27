@@ -5,4 +5,4 @@ files:
   ignore:
     - "src/css/framework.css"
     - "src/framework/sass/*"
-    - "font-awesome"
+    - "fontawesome/css/font-awesome.css"
