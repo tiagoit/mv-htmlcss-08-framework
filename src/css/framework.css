@@ -421,5 +421,13 @@ table {
 @media only screen and (min-width: 0) and (max-width: 719px) {
   .hide-sm {
     display: none !important; } }
+.text-middle {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
 
 /*# sourceMappingURL=framework.css.map */

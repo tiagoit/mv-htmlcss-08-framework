@@ -59,6 +59,20 @@ header nav div.menu img {
   height: 28px;
 }
 
+/* LEARN  */
+
+.learn .row {
+  margin: 0 auto;
+}
+
+.learn-child {
+  margin: 0 auto;
+}
+
+.learn-img img {
+  height: 120px;
+}
+
 /* STORIES  */
 
 .stories {
