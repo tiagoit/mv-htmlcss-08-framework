@@ -566,7 +566,21 @@ table {
 
 .card-title {
   color: var(--black);
-  font-weight: bold; }
+  font-weight: bold;
+  margin: 5px;
+  font-size: 1.2em;
+  text-align: center; }
+
+.card-text {
+  color: var(--grey);
+  line-height: 1.5em;
+  font-size: 1.1em; }
+
+.card {
+  width: auto;
+  padding: 40px;
+  margin: 0 20px;
+  background-color: var(--white); }
 
 :root {
   --gold: #c7973c;
