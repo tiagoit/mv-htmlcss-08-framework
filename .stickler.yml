@@ -1,0 +1,9 @@
+linters:
+  stylelint:
+    config: "stylelint.config.js"
+files:
+  ignore:
+    - "src/css/framework.css"
+    - "src/framework/sass/*"
+    - "font-awesome/css/font-awesome.css"
+    - "font-awesome/*"

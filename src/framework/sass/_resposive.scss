@@ -1,0 +1,24 @@
+
+@include media-breakpoint() { // Large screen
+  .hide {
+    display: none !important;
+  }
+}
+
+@include media-breakpoint($mediumBreakpoint) { // Medium screen
+  .hide-md {
+    display: none !important;
+  }
+}
+
+@include media-breakpoint($smallBreakpoint) { // Small screen
+  .hide-sm {
+    display: none !important;
+  }
+}
+
+@include media-breakpoint($extraSmallBreakpoint) { // Small screen
+  .hide-xs {
+    display: none !important;
+  }
+}

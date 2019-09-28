@@ -1,0 +1,30 @@
+.card-title {
+  display: block;
+  color: var(--black);
+  font-weight: bold;
+  margin: 5px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.card-text {
+  display: block;
+  color: var(--grey);
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+.card {
+  width: auto;
+  padding: 40px;
+  margin: 5px auto;
+  background-color: #fff;
+}
+
+.card-img {
+  width: fit-content;
+  margin: 0 auto;
+  img {
+    height: 150px;
+  }
+}

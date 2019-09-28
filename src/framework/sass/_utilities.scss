@@ -1,0 +1,106 @@
+@function multiply-px($var1, $var2) {
+  @return $var1 * $var2 / 1rem;
+}
+
+$spacingUnit: 0.25rem;
+$spacingUnit2: multiply-px($spacingUnit, 2rem);
+$spacingUnit3: multiply-px($spacingUnit, 4rem);
+$spacingUnit4: multiply-px($spacingUnit, 6rem);
+$spacingUnit5: multiply-px($spacingUnit, 12rem);
+
+.m-auto { margin: 0 auto; }
+
+.mt-1 { margin-top: $spacingUnit; }
+.mt-2 { margin-top: $spacingUnit2; }
+.mt-3 { margin-top: $spacingUnit3; }
+.mt-4 { margin-top: $spacingUnit4; }
+.mt-5 { margin-top: $spacingUnit5; }
+.mt-auto {margin-top: auto; }
+
+.mr-1 { margin-right: $spacingUnit; }
+.mr-2 { margin-right: $spacingUnit2; }
+.mr-3 { margin-right: $spacingUnit3; }
+.mr-4 { margin-right: $spacingUnit4; }
+.mr-5 { margin-right: $spacingUnit5; }
+.mr-auto {margin-right: auto; }
+
+.mb-1 { margin-bottom: $spacingUnit; }
+.mb-2 { margin-bottom: $spacingUnit2; }
+.mb-3 { margin-bottom: $spacingUnit3; }
+.mb-4 { margin-bottom: $spacingUnit4; }
+.mb-5 { margin-bottom: $spacingUnit5; }
+.mb-auto { margin-bottom: auto; }
+
+.ml-1 { padding-left: $spacingUnit; }
+.ml-2 { padding-left: $spacingUnit2; }
+.ml-3 { padding-left: $spacingUnit3; }
+.ml-4 { padding-left: $spacingUnit4; }
+.ml-5 { padding-left: $spacingUnit5; }
+.ml-auto { padding-left: auto; }
+
+.mx-0 { margin-right: 0; margin-left: 0; }
+.mx-1 { margin-right: $spacingUnit; margin-left: $spacingUnit; }
+.mx-2 { margin-right: $spacingUnit2; margin-left: $spacingUnit2; }
+.mx-3 { margin-right: $spacingUnit3; margin-left: $spacingUnit3; }
+.mx-4 { margin-right: $spacingUnit4; margin-left: $spacingUnit4; }
+.mx-5 { margin-right: $spacingUnit5; margin-left: $spacingUnit5; }
+.mx-auto { margin-right: auto; margin-left: auto; }
+
+.my-0 { margin-top: 0; margin-bottom: 0; }
+.my-1 { margin-top: $spacingUnit; margin-bottom: $spacingUnit; }
+.my-2 { margin-top: $spacingUnit2; margin-bottom: $spacingUnit2; }
+.my-3 { margin-top: $spacingUnit3; margin-bottom: $spacingUnit3; }
+.my-4 { margin-top: $spacingUnit4; margin-bottom: $spacingUnit4; }
+.my-5 { margin-top: $spacingUnit5; margin-bottom: $spacingUnit5; }
+.my-auto { margin-top: auto; margin-bottom: auto; }
+
+.pt-1 { padding-top: $spacingUnit; }
+.pt-2 { padding-top: $spacingUnit2; }
+.pt-3 { padding-top: $spacingUnit3; }
+.pt-4 { padding-top: $spacingUnit4; }
+.pt-5 { padding-top: $spacingUnit5; }
+.pt-auto { padding-top: auto; }
+
+.pr-1 { padding-right: $spacingUnit; }
+.pr-2 { padding-right: $spacingUnit2; }
+.pr-3 { padding-right: $spacingUnit3; }
+.pr-4 { padding-right: $spacingUnit4; }
+.pr-5 { padding-right: $spacingUnit5; }
+.pr-auto { padding-right: auto; }
+
+.pb-1 { padding-bottom: $spacingUnit; }
+.pb-2 { padding-bottom: $spacingUnit2; }
+.pb-3 { padding-bottom: $spacingUnit3; }
+.pb-4 { padding-bottom: $spacingUnit4; }
+.pb-5 { padding-bottom: $spacingUnit5; }
+.pb-auto { padding-bottom: auto; }
+
+.pl-1 { padding-left: $spacingUnit; }
+.pl-2 { padding-left: $spacingUnit2; }
+.pl-3 { padding-left: $spacingUnit3; }
+.pl-4 { padding-left: $spacingUnit4; }
+.pl-5 { padding-left: $spacingUnit5; }
+.pl-auto { padding-left: auto; }
+
+.px-1 { padding-right: $spacingUnit; padding-left: $spacingUnit; }
+.px-2 { padding-right: $spacingUnit2; padding-left: $spacingUnit2; }
+.px-3 { padding-right: $spacingUnit3; padding-left: $spacingUnit3; }
+.px-4 { padding-right: $spacingUnit4; padding-left: $spacingUnit4; }
+.px-5 { padding-right: $spacingUnit5; padding-left: $spacingUnit5; }
+.px-auto { padding-right: auto; padding-left: auto; }
+
+.py-1 { padding-top: $spacingUnit; padding-bottom: $spacingUnit; }
+.py-2 { padding-top: $spacingUnit2; padding-bottom: $spacingUnit2; }
+.py-3 { padding-top: $spacingUnit3; padding-bottom: $spacingUnit3; }
+.py-4 { padding-top: $spacingUnit4; padding-bottom: $spacingUnit4; }
+.py-5 { padding-top: $spacingUnit5; padding-bottom: $spacingUnit5; }
+.py-auto { padding-top: auto; padding-bottom: auto; }
+
+
+/* Flex */
+.flex { display: flex; }
+.flex-justify-center { justify-content: center; }
+.flex-justify-between { justify-content: space-between; }
+.flex-justify-around { justify-content: space-around; }
+
+
