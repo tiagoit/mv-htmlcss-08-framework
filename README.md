@@ -38,3 +38,6 @@ Contributions, issues and feature requests are welcome!<br/>Feel free to check [
 
 ## 📝 License
 This project is [MIT](https://github.com/tiagoit/mv-htmlcss-08-framework/license.txt) licensed.
+
+## 📞 Contact
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/tiagoit-dev/) or drop me a line at <tiagoitferreira@gmail.com>.
